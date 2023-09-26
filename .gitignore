@@ -1,0 +1,13 @@
+# When uploads, it doesnt include these files
+
+# Ignore virtual environment
+venv/
+
+# Ignore pycache
+__pycache__/
+
+# Hide .env file cause thats where we keep the secrets, keys, etc.
+.env
+
+# Ignore SQLite database for now (For development use only)
+app.db
